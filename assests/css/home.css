@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Supermercado+One&family=Syne+Tactile&family=Ubuntu:ital,wght@1,300&display=swap");
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Comforter Brush", cursive;
+    font-family: "Supermercado One", cursive;
+    font-family: "Syne Tactile", cursive;
+    font-family: "Ubuntu", sans-serif;
+}
+a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(159, 232, 241);
+    padding: 20px;
+    font-weight: bolder;
+}
+h1 {
+      margin: 150px;
+      text-align: center;
+      margin-bottom: 150px;
+  }
