@@ -5,6 +5,7 @@ const contactControoler = require('../controllers/contact_controller');
 router.get('/', contactControoler.contact);
 router.post('/create-contact', contactControoler.createContact);
 router.get('/delete-contact', contactControoler.deleteContact);
+router.post('/search', contactControoler.serarch)
 
 
 module.exports = router;

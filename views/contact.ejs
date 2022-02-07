@@ -11,6 +11,10 @@
 </head>
 <body>
     <h1 class="heading">Contact</h1>
+    <form action="/contact/search" method="post">
+      <input type="number" required name="search" placeholder="Type Phone Number to search"><br><br>
+      <button type="submit">SEARCH CONTACT</button><br ><hr />
+    </form>
     <form id="form" action="/contact/create-contact" method="POST">
         <input type="text" placeholder="Enter Name" required name="name"><br><br>
         <input type="number" placeholder="Enter Phone Number" required name="phone_number"><br /><br/>
@@ -20,7 +24,8 @@
 
     <% if(error == ''){ %>
         <h1></h1>
-      <% } else{ %>  
+      <% }
+       else{ %>  
         <h1><%=error%></h1>
      <% } %>
 
